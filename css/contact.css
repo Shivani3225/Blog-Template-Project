@@ -1,0 +1,69 @@
+.contact-content{
+    height: 395px;
+    height: 70vh;
+    margin-top: 2px;
+    padding-left:  4px;
+    color: rgb(243, 242, 242);
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.fl-node-6185953c02fca .uabb-blog-posts .uabb-post-thumbnail img {
+    width: 100%;
+}
+.fl-node-6185953c02fca .uabb-blog-posts .uabb-post-thumbnail img {
+    display: inline-block;
+}
+.uabb-blog-posts .uabb-post-thumbnail img {
+    display: block;
+    border-radius: 0;
+}
+.contact-blog-img{
+padding-left: 100px;
+width: 1100px;
+height: 500px;
+
+}
+
+.contact-content::after {
+    content: " ";
+
+    background-image: url("../img/con12.jpg");
+    width: 100%;
+    height: inherit;
+  /*  opacity: ;*/
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1px;
+    padding-bottom: 20px;
+  
+}
+.contact-form{
+
+}
+ .form-box{
+  width: 30px;
+  font-size: 20px;
+  border-radius: 2px solid black;
+  
+ } 
+
+.submit{
+    margin-left: 12px;
+   padding: 0px 15px;
+    padding-top: 4px;
+    padding-bottom:4px ;
+    border: 2px solid rgb(243, 188, 6);
+    border-radius: 6px;
+    font-size: 18px;
+    color: rgb(141, 140, 139);
+    background-color:white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.submit:hover {
+    color: white;
+    background-color: rgb(1, 12, 48);
+  }
